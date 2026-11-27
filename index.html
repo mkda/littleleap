@@ -3,23 +3,69 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LittleLeap News</title>
-<style>
-  body { font: 18px/1.6 system-ui, sans-serif; max-width: 680px; margin: 40px auto; padding: 0 16px; color: #222; background: #fffaf2; }
-  h1 { color: #e06a2c; }
-  a { color: #2a6fb0; }
-  footer { margin-top: 48px; font-size: 14px; color: #666; }
-</style>
+<title>LittleLeap Studios</title>
+<meta name="description" content="Gentle cartoon stories for children aged 3 to 7: classic public-domain tales retold with Zippy, Tomo and their friends from the Big Meadow.">
+<meta name="theme-color" content="#dff1fa">
+<link rel="icon" type="image/png" href="img/medallion.png">
+<link rel="stylesheet" href="style.css">
+<script src="site.js" defer></script>
 </head>
 <body>
-<h1>LittleLeap News</h1>
-<p>Happy news for kids aged 3 to 7, live on YouTube from the LittleLeap Studios channel. Zippy, Tomo and their friends share good news from around the world, fun facts, new words, counting, kindness and the local weather.</p>
-<p>Editions go live every morning and after school for friends in the UK and Ireland, the US East Coast and Eastern Australia.</p>
-<p><a href="https://www.youtube.com/channel/UCfHazWNqEypzrdYbXHwj4kg">Watch LittleLeap Studios on YouTube</a></p>
-<p>The LittleLeap News app on Google is only used by LittleLeap Studios itself, to schedule its own live editions on its own YouTube channel and read its own channel statistics.</p>
-<footer>
-  <a href="privacy.html">Privacy policy</a> · Contact: <a href="mailto:uxtestsmkda@gmail.com">uxtestsmkda@gmail.com</a><br>
-  © LittleLeap Studios
-</footer>
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html"><img src="img/logo.png" alt="LittleLeap Studios" width="115" height="40"></a>
+  <nav class="nav" aria-label="Main"><a href="index.html" aria-current="page">Home</a><a href="watch.html">Watch</a><a href="listen.html">Listen</a><a href="play.html">Play</a><a href="shop.html">Shop</a><a href="parents.html">Parents</a></nav>
+</div></header>
+<main>
+<section class="hero"><div class="wrap">
+  <div>
+    <h1>Gentle stories from the Big Meadow</h1>
+    <p class="lead">Zippy the bunny, Tomo the turtle and their friends retell classic fairy tales and fables for children aged 3 to 7. Every story is warm and funny, has no villains and ends calmly, with little moments where children can join in.</p>
+    <div class="btns">
+      <a class="btn" href="watch.html">Watch the stories</a>
+      <a class="btn ghost" href="listen.html">Listen to the album</a>
+    </div>
+  </div>
+  <div class="cast" aria-hidden="true">
+    <img src="img/cast/zippy.webp" alt="" width="76" height="190">
+    <img src="img/cast/tomo.webp" alt="" width="130" height="121">
+    <img src="img/cast/silvia.webp" alt="" width="100" height="116">
+    <img src="img/cast/little_sugar.webp" alt="" width="104" height="144">
+  </div>
+</div></section>
+
+<section class="block"><div class="wrap">
+  <div id="next"></div>
+</div></section>
+
+<section class="block"><div class="wrap">
+  <h2>Latest stories</h2>
+  <div class="grid" id="latest"><p>Loading…</p></div>
+  <div class="btns"><a class="btn ghost" href="watch.html">See all stories and Shorts</a></div>
+</div></section>
+
+<section class="block"><div class="wrap">
+  <div class="grid">
+    <a class="card" href="listen.html"><img class="thumb" src="img/album.jpg" alt="Little Leap album cover" style="aspect-ratio:16/9;object-position:center 58%"><div class="body"><span class="tag">Music</span><h3>The “Little Leap” album</h3><div class="meta">8 gentle songs from the Big Meadow</div></div></a>
+    <a class="card" href="play.html"><img class="thumb" src="img/play_race.jpg" alt=""><div class="body"><span class="tag">Games</span><h3>Meadow Games</h3><div class="meta">The Big Meadow Race and Meadow Memory, free in the browser</div></div></a>
+    <a class="card" href="shop.html"><img class="thumb" src="img/play_memory.jpg" alt=""><div class="body"><span class="tag soon">Coming soon</span><h3>Shop</h3><div class="meta">Coloring pages, a coloring book and a character gift</div></div></a>
+  </div>
+</div></section>
+
+<section class="block"><div class="wrap narrow">
+  <h2>LittleLeap News</h2>
+  <p>Happy news for kids aged 3 to 7, live on YouTube from the LittleLeap Studios channel. Zippy, Tomo and their friends share good news from around the world, fun facts, new words, counting, kindness and the local weather.</p>
+  <p>Editions go live every morning and after school for friends in the UK and Ireland, the US East Coast and Eastern Australia.</p>
+  <p><a href="https://www.youtube.com/channel/UCfHazWNqEypzrdYbXHwj4kg">Watch LittleLeap Studios on YouTube</a></p>
+  <p>The LittleLeap News app on Google is only used by LittleLeap Studios itself, to schedule its own live editions on its own YouTube channel and read its own channel statistics.</p>
+  <p class="small"><a href="privacy.html">Privacy policy</a> · Contact: <a href="mailto:uxtestsmkda@gmail.com">uxtestsmkda@gmail.com</a></p>
+</div></section>
+</main>
+<footer class="site"><div class="wrap">
+  <span>© LittleLeap Studios</span>
+  <a href="parents.html">For parents</a>
+  <a href="privacy.html">Privacy policy</a>
+  <a href="mailto:uxtestsmkda@gmail.com">uxtestsmkda@gmail.com</a>
+  <a href="https://www.youtube.com/@Little-Leap-Studios" target="_blank" rel="noopener">YouTube</a>
+</div></footer>
 </body>
 </html>

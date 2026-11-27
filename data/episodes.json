@@ -1,0 +1,38 @@
+{
+  "_readme": "The publisher agent adds each new video here at publish time (newest last). Fields: id, type (episode|compilation|short), title, story (the public-domain tale it retells), youtube (video id), date (YYYY-MM-DD, day it went public), length (m:ss), thumb (path in img/ep, optional). 'next' is the next planned episode; set it to null when nothing is scheduled.",
+  "channel": "https://www.youtube.com/@Little-Leap-Studios",
+  "playlist": "https://www.youtube.com/@Little-Leap-Studios/videos",
+  "next": {
+    "title": "Zippy and Friends: The Little Night Helpers",
+    "story": "The Elves and the Shoemaker (Brothers Grimm)",
+    "date": "2026-12-05",
+    "note": "planned"
+  },
+  "videos": [
+    {"id": "EP01", "type": "episode", "title": "Zippy and Tomo: The Big Meadow Race", "story": "The Tortoise and the Hare (Aesop)", "youtube": "7q402XHvN7g", "date": "2026-09-30", "length": "9:58", "thumb": "img/ep/ep01.jpg"},
+    {"id": "EP02", "type": "episode", "title": "Zippy and Tomo: The Giant Turnip", "story": "The Enormous Turnip (Russian folk tale)", "youtube": "GrGLupDZfTk", "date": "2026-10-11", "thumb": "img/ep/ep02.jpg"},
+    {"id": "EP03", "type": "episode", "title": "Zippy and Tomo: The Sky Is Falling!", "story": "Henny Penny (folk tale)", "youtube": "7mr1vnAVk20", "date": "2026-10-15", "thumb": "img/ep/ep03.jpg"},
+    {"id": "EP04", "type": "episode", "title": "Zippy and Tomo: The Little Porridge Pot", "story": "Sweet Porridge (Brothers Grimm)", "youtube": "rhVSuZteMlA", "date": "2026-10-24", "thumb": "img/ep/ep04.jpg"},
+    {"id": "EP05", "type": "episode", "title": "Zippy and Tomo: The Lion and the Little Squirrels", "story": "The Lion and the Mouse (Aesop)", "youtube": "t69dbgh5Yzs", "date": "2026-10-31", "length": "8:11", "thumb": "img/ep/ep05.jpg"},
+    {"id": "COMP01", "type": "compilation", "title": "Story Time for Kids: Giant Turnip, Lion and the Mouse, Magic Porridge Pot", "story": "Three stories in a row, about 30 minutes", "youtube": "OwyJHxVLaFE", "date": "2026-11-16", "thumb": "img/ep/comp01.jpg"},
+    {"id": "EP06", "type": "episode", "title": "Zippy and Friends: The Big Cosy Mitten", "story": "The Mitten (Ukrainian folk tale)", "youtube": "0eISa8Ew9SU", "date": "2026-11-21", "length": "9:22", "thumb": "img/ep/ep06.jpg"},
+
+    {"id": "SH001", "type": "short", "title": "Meet Zippy!", "youtube": "ezkDQLnd6CI", "date": "2026-10-13"},
+    {"id": "SH002", "type": "short", "title": "Meet Tomo!", "youtube": "qudUReavSh0", "date": "2026-10-13"},
+    {"id": "SH003", "type": "short", "title": "Meet Olly!", "youtube": "LV7bkrZA5S8", "date": "2026-10-13"},
+    {"id": "SH004", "type": "short", "title": "Meet Freddie!", "youtube": "V-xEpLHLsF4", "date": "2026-10-13"},
+    {"id": "SH005", "type": "short", "title": "Meet Pip!", "youtube": "vsOmDuM3qvw", "date": "2026-10-13"},
+    {"id": "SH008", "type": "short", "title": "Meet Pop the Squirrel!", "youtube": "jabP9eLCuLM", "date": "2026-10-21"},
+    {"id": "SH009", "type": "short", "title": "Little Sugar and the Blanket of Leaves", "youtube": "0qkRXnMAdAY", "date": "2026-10-23"},
+    {"id": "SH010", "type": "short", "title": "What Colour Is It? Colours with Zippy!", "youtube": "MjEVB3wrlwo", "date": "2026-10-25"},
+    {"id": "SH011", "type": "short", "title": "Meet Snail the Little Snail!", "youtube": "RqxtYL7R34U", "date": "2026-10-27"},
+    {"id": "SH012", "type": "short", "title": "Little Sugar and the Counting Acorns", "youtube": "BPM4ClSN14I", "date": "2026-10-29"},
+    {"id": "SH013", "type": "short", "title": "Who Says This? A Listening Game with Tomo!", "youtube": "sJwgKl-6PvQ", "date": "2026-10-31"},
+    {"id": "SH014", "type": "short", "title": "Little Sugar and the Bouncy Bed", "youtube": "fz_1_exBN0w", "date": "2026-11-01"},
+    {"id": "SH015", "type": "short", "title": "Meet Little Sugar the Teddy Bear!", "youtube": "x1mBtrd4AvI", "date": "2026-11-01"},
+    {"id": "SH016", "type": "short", "title": "Goodnight, Tomo! A Calm Bedtime Breathing Story", "youtube": "Bc91A2zNlqg", "date": "2026-11-03"},
+    {"id": "SH017", "type": "short", "title": "Big and Small with Alex the Giraffe and Snail!", "youtube": "vKvszY4UJX4", "date": "2026-11-05"},
+    {"id": "SH018", "type": "short", "title": "Meet Johnatan the Monkey!", "youtube": "jXcN9RpQH60", "date": "2026-11-07"},
+    {"id": "SH019", "type": "short", "title": "Goodnight, Snail! A Calm Bedtime Breathing Story", "youtube": "JypxN2IcXo8", "date": "2026-11-09"}
+  ]
+}
