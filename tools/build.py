@@ -75,7 +75,7 @@ page("index.html", "Home",
 <section class="hero"><div class="wrap">
   <div>
     <h1>Gentle stories from the Big Meadow</h1>
-    <p class="lead">Zippy the bunny, Tomo the turtle and their friends retell classic fairy tales and fables for children aged 3 to 7. Every story is warm and funny, has no villains and ends calmly, with little moments where children can join in.</p>
+    <p class="lead">Zippy the hare, Tomo the tortoise and their friends retell classic fairy tales and fables for children aged 3 to 7. Every story is warm and funny, has no villains and ends calmly, with little moments where children can join in.</p>
     <div class="btns">
       <a class="btn" href="watch.html">Watch the stories</a>
       <a class="btn ghost" href="listen.html">Listen to the album</a>
@@ -196,7 +196,7 @@ page("parents.html", "For parents",
 <section class="block"><div class="wrap narrow">
   <h1>For parents</h1>
   <h2>What LittleLeap is</h2>
-  <p>LittleLeap Studios makes gentle cartoon stories for children aged 3 to 7. We retell classic public-domain fables and fairy tales, such as Aesop and the Brothers Grimm, in our own words, with our own original characters: Zippy the bunny, Tomo the turtle, Silvia the squirrel, Little Sugar the bear and their friends from the Big Meadow.</p>
+  <p>LittleLeap Studios makes gentle cartoon stories for children aged 3 to 7. We retell classic public-domain fables and fairy tales, such as Aesop and the Brothers Grimm, in our own words, with our own original characters: Zippy the hare, Tomo the tortoise, Silvia the squirrel, Little Sugar the bear and their friends from the Big Meadow.</p>
   <ul class="ticks">
     <li>No villains and no scary moments: problems are solved with kindness and teamwork.</li>
     <li>Calm endings, so a story works well before a nap or bedtime.</li>
